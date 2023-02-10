@@ -2,8 +2,6 @@ import React, { useRef } from 'react';
 import './content.css';
 import { IoIosContact } from 'react-icons/io';
 import { BiMessageCheck } from 'react-icons/bi';
-import { ImWhatsapp } from 'react-icons/im';
-import emailjs from 'emailjs-com';
 
 const Content = () => {
   const form = useRef();
@@ -28,7 +26,6 @@ const Content = () => {
             experience the future of customer loyalty.
           </p>
         </div>
-        {/* end of contactact details */}
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="<IoIosContact />Tell us your name" required />
           <input type="email" name="email" placeholder="<HiOutlineMail />Enter your email address" required />

@@ -1,6 +1,6 @@
-# BookStore
+# Loyalbaze
 
-> BookStore is project built using React and redux.
+> Loyalbaze is project built using React.
 
 
 Additional description about the project and its features.
@@ -15,53 +15,45 @@ Additional description about the project and its features.
 
 ### Frameworks/Libraries
 - React
-- Redux
 
 ## Live Demo
 
-[Click here](https://react-redux-books.netlify.app/) 
+[Click here](https://) 
 
 ## Getting Started
-
 To get a local copy up and running follow these simple example steps.
-```
-git clone git@github.com:sainingo/bookstore
 
-cd bookstore
+In your terminal, navigate to your current directory and run this code
 
-npm install 
+`https://github.com/abiodunraheem/loyalbaze`
 
-npm start 
-```
+Locate the directory in your file explorer
+
+`cd loyalbaze`
+
+Install all packages and dependencies using:
+
+`npm install`
+
+Start the web dev server depending on your configuration
+
+`npm start`
+
+The Project should now be live on your browser
 
 ### Prerequisites
-```
-node modules 
-```
+
+- You only need a browser to run the html file in.
+
 ### Setup
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Create a new folder to store the files in.
 
 ### Install
+
+- Open your command prompt or terminal and run.
+- git clone git@github.com:abiodunraheem/abiodun-loyalbaze.git.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Run tests
 
