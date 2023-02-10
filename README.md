@@ -1,24 +1,23 @@
-# Loyalbaze
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Loyalbaze is project built using React.
+# LOYALBAZE APP WITH REACT
 
 
-Additional description about the project and its features.
+This project was built using React, JavaScript and CSS.
 
-# Built With
+It is a shows my understanding of Gitflow, use of Linters, semantics, CSS3 flexbox, react and figma.
 
-### Major languages
-- HTML
-- CSS
-- JS
-- JSX
+## Built With
 
-### Frameworks/Libraries
+- CSS3
+- JavacriptReact
 - React
+- Linters
+- Figma
 
 ## Live Demo
+[Live Demo Link](https://loyalbaze.netlify.app/)
 
-[Click here](https://) 
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -52,43 +51,42 @@ The Project should now be live on your browser
 ### Install
 
 - Open your command prompt or terminal and run.
-- git clone git@github.com:abiodunraheem/abiodun-loyalbaze.git.
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- git clone git@github.com:abiodunraheem/loyalbaze.git.
 
-### Run tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+## Tests
+To run your tests you can run:
+- `npm test` for unit tests with the React testing library & Jest
+- `npx eslint .` for all your JavaScript based linter checks
+- `npx stylelint "**/*.{css,scss}"` for all your CSS based linter checks
 ### Deployment
 
-👤 **Author**
+- Project is deployed using
+- git push <branch_name>
+
+
+
+## Author
+
+👤 **Abiodun Raheem**
 
 - GitHub: [@Abiodunraheem](https://github.com/Abiodunraheem)
 - Twitter: [@abiodunraheem23](https://twitter.com/abiodunraheem23)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abiodun-raheem)
 
-## Show your support
-
-Give a ⭐️ if you like this project!
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abiodunraheem/book-store/issues).
+Feel free to check the [issues page](https://github.com/abiodunraheem/abiodun-react-portfolio)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+Major thanks to [EGATOR](https://twitter.com/egator)
 
-- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
-- Hat tip to book-store API
 
 ## 📝 License
 
