@@ -1,14 +1,39 @@
 header {
   /* height: 100vh; */
-  padding-top: 7rem;
-  overflow: hidden;
+  padding-top: 2rem;
+  /* overflow: hidden; */
 }
 
-.header_container {
-  text-align: center;
-  height: 100%;
-  position: relative;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem auto;
+  align-items: center;
 }
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap:5%;
+  margin: 1.2rem auto;
+  align-items: center;
+}
+
+/* .contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem auto;
+  align-items: center;
+} */
+
+ /* .header_container h2 {
+  text-align: center;
+  align-items: center;
+  } */
+
+  .love {
+    font-size: 15px;
+  }
 
 /* .header_socials {
   display: flex;
@@ -37,4 +62,4 @@ header {
   .circle2 {
     display: none;
   }
-}
+} 
