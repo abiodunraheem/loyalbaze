@@ -1,7 +1,5 @@
 header {
-  /* height: 100vh; */
   padding-top: 2rem;
-  /* overflow: hidden; */
 }
 
 .header-container {
@@ -19,31 +17,9 @@ header {
   align-items: center;
 }
 
-/* .contact-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 1.2rem auto;
-  align-items: center;
-} */
-
- /* .header_container h2 {
-  text-align: center;
-  align-items: center;
-  } */
-
-  .love {
+.love {
     font-size: 15px;
   }
-
-/* .header_socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-  position: absolute;
-  left: 0;
-  bottom: 3rem;
-} */
 
 /* media queries tab */
 @media screen and (max-width: 1024px) {
@@ -56,10 +32,5 @@ header {
 @media screen and (max-width: 600px) {
   .header {
     height: 100vh;
-  }
-
-  .circle1,
-  .circle2 {
-    display: none;
   }
 } 

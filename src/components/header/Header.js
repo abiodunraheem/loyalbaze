@@ -1,29 +1,7 @@
-// import React from 'react';
-// import { NavLink } from 'react-router-dom';
-// import './header.css';
-// import { GiEternalLove } from 'react-icons/gi';
-// import Contact from '../contact/Contact';
-
-// const Header = () => (
-//   <header>
-//     <div className="container header-container">
-//       <h2>
-//         l
-//         <GiEternalLove class="love" />
-//         yalbaze
-//       </h2>
-//       <button type="submit" className="btn btn-primary">Request a call</button>
-//     </div>
-//   </header>
-// );
-
-// export default Header;
-
 import React, { useRef, useState } from 'react';
 import Modal from 'react-modal';
 import './header.css';
 import { GiEternalLove } from 'react-icons/gi';
-// import './contact.css';
 import emailjs from 'emailjs-com';
 
 const Header = () => {
