@@ -20,11 +20,6 @@
   margin: 0 auto;
 }
 
-.contact_option-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .content h1 {
   margin: 0.4rem;
 }
@@ -35,7 +30,7 @@ form {
   flex-direction: column;
   gap: 1.2rem;
   align-items: center;
-  margin: 1.3rem 0;
+  margin: 1.3rem auto 4rem auto;
 }
 
 input,
@@ -55,17 +50,38 @@ form .btn {
 }
 
 /* media queries tab */
-@media screen and (max-width: 1024px) {
-  .container.contact_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+@media screen and (min-width: 900px) {
+  .container.content-container {
+    width: 70%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin: 3rem auto 3rem auto;
+  }
+
+  .content h1 {
+    margin: 0.5rem;
+    font-size: 2.9rem;
+  }
+
+  .content p {
+    font-size: 1.3rem;
   }
 }
 
 /* media queries mobile phones */
-@media screen and (max-width: 600px) {
-  .contact_container {
-    width: var(--container-width-sm);
+@media screen and (max-width: 425px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content h1 {
+    margin: 0.2rem;
+    font-size: 1.6rem;
   }
 }

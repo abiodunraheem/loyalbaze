@@ -1,11 +1,7 @@
-header {
-  padding-top: 2rem;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
-  margin: 1.2rem auto;
+  margin: 1rem auto;
   align-items: center;
 }
 
@@ -14,7 +10,7 @@ header {
   grid-template-columns: 30% 58%;
   gap:5%;
   margin: 1.2rem auto;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .love {

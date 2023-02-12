@@ -40,8 +40,8 @@ const Header = () => {
         }
       >
         <div className="container contact-container">
-          <div className="contact_options">
-            <h1>Priority Access</h1>
+          <div className="contact-options">
+            <h3>Priority Access</h3>
             <p>
               Get ready to revolutionize the way you interact with your customers and
               drive sales with Loyalbaze. Skip the waitlist and get exclusive priority
@@ -50,7 +50,7 @@ const Header = () => {
             </p>
           </div>
           <form ref={form} onSubmit={sendEmail}>
-            <h2>Book a consultation with us</h2>
+            <h5>Book a consultation with us</h5>
             <input type="text" name="name" placeholder="Enter your full name" required />
             <input type="email" name="email" placeholder="Enter your work email" required />
             <input type="email" name="email" placeholder="Mobile number" required />
