@@ -25,7 +25,7 @@
 }
 
 /* form style */
-form {
+.content-container form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -34,7 +34,7 @@ form {
 }
 
 input,
-textarea {
+textarea, select {
   width: 65%;
   border-radius: 0.5rem;
   padding: 0.7rem;
@@ -50,7 +50,7 @@ form .btn {
 }
 
 /* media queries tab */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
   .container.content-container {
     width: 70%;
   }

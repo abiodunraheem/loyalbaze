@@ -28,7 +28,8 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.5;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* height: 100vh; */
 }
 
 .container {
@@ -46,7 +47,7 @@ h5 {
 }
 
 h5 {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 h1 {
@@ -90,9 +91,9 @@ section > h2 {
 
 /* media queries tab */
 @media screen and (max-width: 1024px) {
-  .container {
+  /* .container {
     width: var(--container-width-md);
-  }
+  } */
 
   section {
     margin-top: 3rem;
