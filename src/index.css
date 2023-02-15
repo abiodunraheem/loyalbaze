@@ -28,10 +28,6 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.5;
-
-  /* overflow: hidden; */
-
-  /* height: 100vh; */
 }
 
 .container {
@@ -45,8 +41,6 @@ h3,
 h4,
 h5 {
   font-weight: 500;
-
-  /* font-size: 27px; */
 }
 
 h5 {
@@ -56,10 +50,6 @@ h5 {
 h1 {
   font-size: 2rem;
 }
-
-/* section {
-  margin-top: 4rem;
-} */
 
 section > h2,
 section > h5 {
@@ -90,17 +80,6 @@ section > h2 {
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-white);
-}
-
-/* media queries tab */
-@media screen and (max-width: 1024px) {
-  /* .container {
-    width: var(--container-width-md);
-  } */
-
-  /* section {
-    margin-top: 3rem;
-  } */
 }
 
 /* media queries mobile phones */

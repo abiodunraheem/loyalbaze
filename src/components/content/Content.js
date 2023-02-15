@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import './content.css';
 import { WiMoonFull } from 'react-icons/wi';
 import { GiStarShuriken } from 'react-icons/gi';
-// import { RiCheckboxBlankCircleFill } from 'react-icons/ri';
 import emailjs from 'emailjs-com';
 
 const Content = () => {
@@ -36,7 +35,6 @@ const Content = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Tell us your name" required />
           <input type="email" name="email" placeholder="Enter your email address" required />
-          {/* <GiStarShuriken className="star1" /> */}
           <button type="submit" className="btn btn-primary">Get early access</button>
           <GiStarShuriken className="star2" />
         </form>
