@@ -1,0 +1,91 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto 0 auto;
+  align-items: center;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  gap: 5%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contact-container input,
+textarea,
+select {
+  width: 100%;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.contact-form select {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  background: transparent;
+  border: 1px solid #fff;
+  resize: none;
+}
+
+.contact-form select option {
+  color: #151729;
+}
+
+.contact-form {
+  margin-top: 2.5rem;
+}
+
+.contact-form .btn {
+  width: 100%;
+}
+
+.star {
+  color: yellow;
+  font-size: 2rem;
+  margin-left: 13rem;
+}
+
+.small-circle {
+  color: #461230;
+  font-size: 4rem;
+}
+
+.wave {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.big {
+  font-size: 14px;
+  margin-left: 10rem;
+}
+
+.contact-options p {
+  font-size: 0.8rem;
+}
+
+.love {
+  font-size: 15px;
+}
+
+/* media queries tab */
+@media screen and (max-width: 1024px) {
+  .contact-options p {
+    font-size: 0.9rem;
+  }
+
+  .contact-form form {
+    gap: 1rem;
+  }
+}
+
+/* media queries mobile phones */
+@media screen and (max-width: 600px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

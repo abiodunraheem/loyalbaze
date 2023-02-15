@@ -1,0 +1,107 @@
+.full-moon {
+  color: #461230;
+  font-size: 6rem;
+  position: relative;
+  top: 92px;
+  left: -58px;
+}
+
+.content {
+  background: var(--color-bg-variant);
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* form style */
+.content-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  margin: 0 auto;
+}
+
+input,
+textarea,
+select {
+  width: 65%;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  background: transparent;
+  border: 1px solid #fff;
+  resize: none;
+  color: var(--color-white);
+}
+
+form .btn {
+  width: 65%;
+  background-color: #461230;
+}
+
+.top1 {
+  color: yellow;
+  font-size: 0.8rem;
+  margin-left: 13rem;
+}
+
+.top2 {
+  color: yellow;
+  font-size: 0.8rem;
+  margin-left: 13rem;
+}
+
+.stars {
+  display: flex;
+  gap: 5rem;
+}
+
+.star1 {
+  color: yellow;
+  font-size: 1.3rem;
+  margin-left: 13rem;
+}
+
+.star2 {
+  color: yellow;
+  font-size: 1.4rem;
+  margin-left: -41.7rem;
+}
+
+/* media queries tab */
+@media screen and (min-width: 1024px) {
+  .container.content-container {
+    width: 70%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin: 3rem auto 3rem auto;
+  }
+
+  .content h1 {
+    margin: 0.5rem;
+    font-size: 2.9rem;
+  }
+
+  .content p {
+    font-size: 1.3rem;
+  }
+}
+
+/* media queries mobile phones */
+@media screen and (max-width: 425px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content h1 {
+    margin: 0.2rem;
+    font-size: 1.6rem;
+  }
+}
