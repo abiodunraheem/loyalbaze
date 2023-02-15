@@ -11,9 +11,9 @@
 }
 
 :root {
-  --color-bg:  #151729;
-  --color-bg-variant:  #151729;
-  --color-primary:  #151729;
+  --color-bg: #151729;
+  --color-bg-variant: #151729;
+  --color-primary: #151729;
   --color-primary-variant: rgba(25, 20, 48, 0.479);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -28,7 +28,9 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.5;
+
   /* overflow: hidden; */
+
   /* height: 100vh; */
 }
 
@@ -43,6 +45,7 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+
   /* font-size: 27px; */
 }
 
@@ -54,9 +57,9 @@ h1 {
   font-size: 2rem;
 }
 
-section {
+/* section {
   margin-top: 4rem;
-}
+} */
 
 section > h2,
 section > h5 {
@@ -95,9 +98,9 @@ section > h2 {
     width: var(--container-width-md);
   } */
 
-  section {
+  /* section {
     margin-top: 3rem;
-  }
+  } */
 }
 
 /* media queries mobile phones */

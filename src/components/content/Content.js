@@ -1,8 +1,9 @@
 import React, { useRef } from 'react';
 import './content.css';
+import { WiMoonFull } from 'react-icons/wi';
+import { GiStarShuriken } from 'react-icons/gi';
+// import { RiCheckboxBlankCircleFill } from 'react-icons/ri';
 import emailjs from 'emailjs-com';
-// import circle1 from '../../assets/circle1.png';
-// import circle2 from '../../assets/circle2.png';
 
 const Content = () => {
   const form = useRef();
@@ -15,14 +16,13 @@ const Content = () => {
   };
   return (
     <section id="contact">
-      {/* <div className="circle1">
-        <img src={circle1} alt="header first circle" />
-      </div>
-      <div className="circle2">
-        <img src={circle2} alt="header second circle" />
-      </div> */}
       <div className="container content-container">
+        <WiMoonFull className="full-moon" />
         <div className="content">
+          <div className="stars">
+            <GiStarShuriken className="top1" />
+            <GiStarShuriken className="top2" />
+          </div>
           <h1>
             Turn your best customers into
             <span className="orange"> Loyal fans</span>
@@ -36,7 +36,9 @@ const Content = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Tell us your name" required />
           <input type="email" name="email" placeholder="Enter your email address" required />
+          {/* <GiStarShuriken className="star1" /> */}
           <button type="submit" className="btn btn-primary">Get early access</button>
+          <GiStarShuriken className="star2" />
         </form>
       </div>
     </section>

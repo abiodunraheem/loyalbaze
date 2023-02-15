@@ -2,7 +2,8 @@ import React, { useRef, useState } from 'react';
 import Modal from 'react-modal';
 import './header.css';
 import { GiEternalLove, GiStarShuriken } from 'react-icons/gi';
-// import { GiStarShuriken } from 'react-icons/gi';
+import { RiCheckboxBlankCircleFill } from 'react-icons/ri';
+import { TbWaveSawTool } from 'react-icons/tb';
 import emailjs from 'emailjs-com';
 
 const Header = () => {
@@ -40,23 +41,25 @@ const Header = () => {
       >
         <div className="container contact-container">
           <div className="contact-options">
-            <div className="star big"><GiStarShuriken /></div>
+            <RiCheckboxBlankCircleFill className="small-circle" />
+            <GiStarShuriken className="star big" />
             <h1>Priority Access</h1>
+            <div className="wave"><TbWaveSawTool /></div>
             <p>
               Get ready to revolutionize the way you interact with your customers and
               drive sales with Loyalbaze. Skip the waitlist and get exclusive priority
               access to LoyalBaze. Limited slots available. Please tell us a bit about
               your business and needs, and our consultants will be in touch immediately!
             </p>
-            <div className="star"><GiStarShuriken /></div>
+            <GiStarShuriken className="star" />
           </div>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <h5>Book a consultation with us</h5>
               <input type="text" name="name" placeholder="Enter your full name" required />
               <input type="email" name="email" placeholder="Enter your work email" required />
-              <input type="email" name="email" placeholder="Mobile number" required />
-              <input type="email" name="email" placeholder="Company name" required />
+              <input type="number" name="number" placeholder="Mobile number" required />
+              <input type="name" name="name" placeholder="Company name" required />
               <select>
                 <option>Select country</option>
                 <option value="Afghanistan">Afghanistan</option>
