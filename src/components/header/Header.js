@@ -25,7 +25,9 @@ const Header = () => {
             <GiEternalLove class="love" />
             yalbaze
           </h2>
-          <button type="submit" className="btn btn-primary" onClick={() => setmodalIsOpen(true)}>Request a call</button>
+          <div className="outer button">
+            <button type="submit" className="btn btn-primary" onClick={() => setmodalIsOpen(true)}>Request a call</button>
+          </div>
         </div>
       </header>
       <Modal
@@ -60,19 +62,6 @@ const Header = () => {
               <input type="email" name="email" placeholder="Enter your work email" required />
               <input type="number" name="number" placeholder="Mobile number" required />
               <input type="name" name="name" placeholder="Company name" required />
-              <select>
-                <option>Select country</option>
-                <option value="Afghanistan">Afghanistan</option>
-                <option value="Albania">Albania</option>
-                <option value="America">America</option>
-                <option value="Brazil">Brazil</option>
-                <option value="Bonswana">Bonswana</option>
-                <option value="Costa-Rica">Costa-Rica</option>
-                <option value="Nigeria">Nigeria</option>
-                <option value="Peru">Peru</option>
-                <option value="Uruguay">Uruguay</option>
-                <option value="Zambia">Zambia</option>
-              </select>
               <textarea name="message" id="" cols="20" rows="5" placeholder="Drop a message..." required />
               <button type="submit" className="btn btn-primary">Send Message</button>
             </form>

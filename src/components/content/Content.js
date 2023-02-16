@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import './content.css';
-import { WiMoonFull } from 'react-icons/wi';
 import { GiStarShuriken } from 'react-icons/gi';
 import emailjs from 'emailjs-com';
 
@@ -16,7 +15,7 @@ const Content = () => {
   return (
     <section id="contact">
       <div className="container content-container">
-        <WiMoonFull className="full-moon" />
+        <div className="outer circle" />
         <div className="content">
           <div className="stars">
             <GiStarShuriken className="top1" />
