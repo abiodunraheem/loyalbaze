@@ -83,7 +83,7 @@ section > h2 {
   color: var(--color-white);
 }
 
-/* media queries mobile phones */
+/* media queries for mobile phones */
  @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
