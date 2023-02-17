@@ -18,10 +18,11 @@
 }
 
 .semi-circle {
-  height: 175px;
-  width: 100px;
-  border-bottom-left-radius: 50%;
-  border-top-left-radius: 50%;
+  height: 220px;
+  width: 110px;
+  border-radius: 125px 0 0 125px;
+  /* border-bottom-left-radius: 50%; */
+  /* border-top-left-radius: 50%; */
   position: absolute;
   top: 20rem;
   right: 0;

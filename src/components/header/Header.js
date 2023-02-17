@@ -8,6 +8,7 @@ import emailjs from 'emailjs-com';
 
 const Header = () => {
   const [modalIsOpen, setmodalIsOpen] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -56,6 +57,7 @@ const Header = () => {
             <GiStarShuriken className="star" />
           </div>
           <div className="contact-form">
+            <button type="submit" className="close" onClick={() => setmodalIsOpen(false)}>x</button>
             <form ref={form} onSubmit={sendEmail}>
               <h5>Book a consultation with us</h5>
               <input type="text" name="name" placeholder="Enter your full name" required />
@@ -63,7 +65,7 @@ const Header = () => {
               <input type="number" name="number" placeholder="Mobile number" required />
               <input type="name" name="name" placeholder="Company name" required />
               <textarea name="message" id="" cols="20" rows="5" placeholder="Drop a message..." required />
-              <button type="submit" className="btn btn-primary">Send Message</button>
+              <button type="submit" className="btn btn-primary">Send Request</button>
             </form>
           </div>
         </div>
