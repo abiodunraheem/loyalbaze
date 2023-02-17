@@ -153,13 +153,17 @@ textarea {
 }
 
 /* media queries tab */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .contact-options p {
     font-size: 0.9rem;
   }
 
   .contact-form form {
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+    margin: 0 auto;
   }
 }
 
