@@ -4,10 +4,6 @@
   align-items: center;
 }
 
-.outer {
-  background: linear-gradient(90deg, #401c96, #ff00f3);
-}
-
 .button {
   height: 42px;
   width: 159px;
@@ -32,15 +28,17 @@
 }
 
 .outer {
+  background: linear-gradient(90deg, #401c96, #ff00f3);
   animation: rotate 4s linear infinite;
 }
 
 @keyframes rotate {
   0% {
-    filter: hue-rotate(0deg)
+    filter: hue-rotate(0deg);
   }
-  100%{
-    filter: hue-rotate(360deg)
+
+  100% {
+    filter: hue-rotate(360deg);
   }
 }
 
