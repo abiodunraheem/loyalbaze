@@ -1,9 +1,33 @@
-.full-moon {
-  color: #461230;
-  font-size: 6rem;
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
   position: relative;
   top: 92px;
   left: -58px;
+}
+
+.small-circle1 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6rem;
+  right: 12rem;
+  background-color: rgb(56, 56, 167);
+}
+
+.semi-circle {
+  height: 220px;
+  width: 110px;
+  border-radius: 125px 0 0 125px;
+
+  /* border-bottom-left-radius: 50%; */
+
+  /* border-top-left-radius: 50%; */
+  position: absolute;
+  top: 20rem;
+  right: 0;
 }
 
 .content {
@@ -13,18 +37,26 @@
   margin: 0 auto;
 }
 
+.orange {
+  color: rgb(182, 4, 182);
+}
+
 /* form style */
 .content-container form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
   align-items: center;
-  margin: 0 auto;
+  margin: 0.5rem auto;
+}
+
+.btn {
+  width: 65%;
+  background: linear-gradient(50deg, rgb(64, 28, 150), #ff00f3);
 }
 
 input,
-textarea,
-select {
+textarea {
   width: 65%;
   border-radius: 0.5rem;
   padding: 0.7rem;
@@ -34,21 +66,20 @@ select {
   color: var(--color-white);
 }
 
-form .btn {
-  width: 65%;
-  background-color: #461230;
-}
-
 .top1 {
   color: yellow;
-  font-size: 0.8rem;
-  margin-left: 13rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 10rem;
+  left: 13rem;
 }
 
 .top2 {
   color: yellow;
-  font-size: 0.8rem;
-  margin-left: 13rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 15rem;
+  right: 7rem;
 }
 
 .stars {
@@ -58,14 +89,18 @@ form .btn {
 
 .star1 {
   color: yellow;
-  font-size: 1.3rem;
-  margin-left: 13rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 32rem;
+  right: 10rem;
 }
 
 .star2 {
   color: yellow;
-  font-size: 1.4rem;
-  margin-left: -41.7rem;
+  font-size: 1.2rem;
+  position: relative;
+  top: -1.5rem;
+  left: -21rem;
 }
 
 /* media queries tab */
@@ -94,6 +129,16 @@ form .btn {
 
 /* media queries mobile phones */
 @media screen and (max-width: 425px) {
+  .circle,
+  .small-circle1,
+  .semi-circle,
+  .top1,
+  .top2,
+  .star1,
+  .star2 {
+    display: none;
+  }
+
   form {
     display: flex;
     flex-direction: column;

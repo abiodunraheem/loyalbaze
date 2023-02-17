@@ -1,8 +1,45 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto 0 auto;
   align-items: center;
+}
+
+.button {
+  height: 42px;
+  width: 159px;
+  border-radius: 50px;
+}
+
+.outer button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border: none;
+  background: var(--color-bg-variant);
+  color: #fff;
+}
+
+.button button {
+  height: 39px;
+  width: 156px;
+  border-radius: 50px;
+}
+
+.outer {
+  background: linear-gradient(90deg, #401c96, #ff00f3);
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 .contact-container {
@@ -14,11 +51,9 @@
 }
 
 .contact-container input,
-textarea,
-select {
+textarea {
   width: 100%;
-  margin-top: 0.4rem;
-  margin-bottom: 0.2rem;
+  margin: 0.3rem 0;
 }
 
 .contact-form select {
@@ -28,10 +63,6 @@ select {
   background: transparent;
   border: 1px solid #fff;
   resize: none;
-}
-
-.contact-form select option {
-  color: #151729;
 }
 
 .contact-form {
@@ -49,12 +80,12 @@ select {
 }
 
 .small-circle {
-  color: #461230;
+  color: rgb(56, 56, 167);
   font-size: 4rem;
 }
 
 .wave {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -69,6 +100,56 @@ select {
 
 .love {
   font-size: 15px;
+  color: rgb(56, 56, 167);
+}
+
+.close {
+  font-size: 1.2rem;
+  color: grey;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--color-bg-variant);
+}
+
+.popup {
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.check {
+  color: green;
+  font-size: 4rem;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #42b818;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgb(0, 0, 0, 0.2);
 }
 
 /* media queries tab */

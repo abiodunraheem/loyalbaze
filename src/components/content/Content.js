@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import './content.css';
-import { WiMoonFull } from 'react-icons/wi';
 import { GiStarShuriken } from 'react-icons/gi';
 import emailjs from 'emailjs-com';
 
@@ -16,12 +15,11 @@ const Content = () => {
   return (
     <section id="contact">
       <div className="container content-container">
-        <WiMoonFull className="full-moon" />
+        <div className="small-circle1" />
+        <div className="outer circle" />
         <div className="content">
-          <div className="stars">
-            <GiStarShuriken className="top1" />
-            <GiStarShuriken className="top2" />
-          </div>
+          <GiStarShuriken className="top1" />
+          <GiStarShuriken className="top2" />
           <h1>
             Turn your best customers into
             <span className="orange"> Loyal fans</span>
@@ -32,11 +30,13 @@ const Content = () => {
             experience the future of customer loyalty.
           </p>
         </div>
+        <div className="outer semi-circle" />
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Tell us your name" required />
           <input type="email" name="email" placeholder="Enter your email address" required />
           <button type="submit" className="btn btn-primary">Get early access</button>
           <GiStarShuriken className="star2" />
+          <GiStarShuriken className="star1" />
         </form>
       </div>
     </section>

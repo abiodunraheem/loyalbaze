@@ -28,11 +28,12 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.5;
+  overflow: hidden;
 }
 
 .container {
   width: var(--container-width-lg);
-  margin: 0 auto;
+  margin: 1.5rem auto 0 auto;
 }
 
 h1,
@@ -82,7 +83,7 @@ section > h2 {
   color: var(--color-white);
 }
 
-/* media queries mobile phones */
+/* media queries for mobile phones */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
