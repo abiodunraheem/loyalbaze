@@ -5,7 +5,7 @@
 }
 
 .outer {
-  background: linear-gradient(rgba(201, 96, 150, 0.616), rgb(235, 222, 46), rgb(182, 4, 182));
+  background: linear-gradient(90deg, #401c96, #ff00f3);
 }
 
 .button {
@@ -21,18 +21,18 @@
   transform: translate(-50%, -50%);
   outline: none;
   border: none;
-  background: #111;
+  background: var(--color-bg-variant);
   color: #fff;
 }
 
 .button button {
-  height: 37px;
-  width: 150px;
+  height: 39px;
+  width: 156px;
   border-radius: 50px;
 }
 
 .outer {
-  animation: rotate 1.5s linear infinite;
+  animation: rotate 4s linear infinite;
 }
 
 @keyframes rotate {
@@ -82,7 +82,7 @@ textarea {
 }
 
 .small-circle {
-  color: rgb(182, 4, 182);
+  color: rgb(56, 56, 167);
   font-size: 4rem;
 }
 
@@ -102,6 +102,7 @@ textarea {
 
 .love {
   font-size: 15px;
+  color: rgb(56, 56, 167);
 }
 
 /* media queries tab */

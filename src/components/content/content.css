@@ -7,6 +7,26 @@
   left: -58px;
 }
 
+.small-circle1 {
+  height:80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6rem;
+  right: 12rem;
+  background-color: rgb(56, 56, 167);
+}
+
+.semi-circle {
+  height:175px;
+  width: 100px;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  position: absolute;
+  top: 20rem;
+  right: 0;
+}
+
 .content {
   background: var(--color-bg-variant);
   text-align: center;
@@ -24,12 +44,12 @@
   flex-direction: column;
   gap: 1.2rem;
   align-items: center;
-  margin: 0.5rem auto 0 auto;
+  margin: 0.5rem auto;
 }
 
 .btn {
   width: 65%;
-  background-color: rgb(182, 4, 182);
+  background: linear-gradient(50deg, rgb(64, 28, 150), #ff00f3);
 }
 
 input,
@@ -45,14 +65,18 @@ textarea {
 
 .top1 {
   color: yellow;
-  font-size: 0.8rem;
-  margin-left: 13rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 10rem;
+  left: 13rem;
 }
 
 .top2 {
   color: yellow;
-  font-size: 0.8rem;
-  margin-left: 13rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 15rem;
+  right: 7rem;
 }
 
 .stars {
@@ -62,8 +86,10 @@ textarea {
 
 .star1 {
   color: yellow;
-  font-size: 1.3rem;
-  margin-left: 13rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 32rem;
+  right: 10rem;
 }
 
 .star2 {
@@ -100,7 +126,13 @@ textarea {
 
 /* media queries mobile phones */
 @media screen and (max-width: 425px) {
-  .circle {
+  .circle,
+  .small-circle1,
+  .semi-circle,
+  .top1,
+  .top2,
+  .star1,
+  .star2 {
     display: none;
   }
 
