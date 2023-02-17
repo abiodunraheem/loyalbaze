@@ -21,10 +21,6 @@
   height: 220px;
   width: 110px;
   border-radius: 125px 0 0 125px;
-
-  /* border-bottom-left-radius: 50%; */
-
-  /* border-top-left-radius: 50%; */
   position: absolute;
   top: 20rem;
   right: 0;
@@ -64,6 +60,7 @@ textarea {
   border: 1px solid #fff;
   resize: none;
   color: var(--color-white);
+  margin-bottom: 0.5rem;
 }
 
 .top1 {
@@ -131,11 +128,7 @@ textarea {
 @media screen and (max-width: 425px) {
   .circle,
   .small-circle1,
-  .semi-circle,
-  .top1,
-  .top2,
-  .star1,
-  .star2 {
+  .semi-circle {
     display: none;
   }
 
@@ -148,5 +141,9 @@ textarea {
   .content h1 {
     margin: 0.2rem;
     font-size: 1.6rem;
+  }
+
+  .content p {
+    margin: 1.5rem 0;
   }
 }
